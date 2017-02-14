@@ -24,7 +24,7 @@ header {
   display: inline-block;
   position: relative;
 
-  background-image: url("/assets/logo.png");
+  background-image: url(#{$assets_url}/logo.png);
   background-repeat: no-repeat;
   background-size: 85px 65px;
   left: 40px;
@@ -52,8 +52,8 @@ header {
 }
 @font-face {
   font-family: "Ailerons-Typeface";
-  src: url('/assets/fonts/Ailerons-Typeface.woff') format('woff');
-  src: url('/assets/fonts/Ailerons-Typeface.ttf') format('truetype');
+  src: url(#{$assets_url}/Ailerons-Typeface.woff) format('woff');
+  src: url(#{$assets_url}/Ailerons-Typeface.tff) format('truetype');
 
 }
 
