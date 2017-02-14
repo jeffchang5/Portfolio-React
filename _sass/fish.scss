@@ -12,26 +12,42 @@
   width: 30px;
 }
 
-svg#about_fish{
 
-  margin-top: 25px;
-
-
-}
 
 svg#passion_fish{
 
-  margin-top: 60px;
-
-
+  margin-top: 30px;
+  transform: rotate(-13deg);
+  stroke: #66CD00;
+  fill: #66CD00;
 }
 svg#project_fish {
-   margin-top: 30px;
+  margin-top: 10px;
+  transform: rotate(7deg);
+  stroke: #CD5C5C;
+  fill: #CD5C5C;
 
  }
 svg#contact_fish {
-  margin-top: 30px;
+  margin-top: 20px;
+  transform: rotate(10deg);
+  stroke: #66CCCC;
+  fill: #66CCCC
+;
+}
 
+svg#about_fish {
+  margin-top: 10px;
+  fill:#FFF;
+  stroke:#FFF;
+  transform: rotate(13deg);
+}
+svg {
+  padding: 20px;
+}
+.fish :hover {
+  transform: scale(1.6);
+  filter: url(#blur-filter);
 }
 div#passions {
   position: relative;
@@ -39,8 +55,4 @@ div#passions {
   z-index: -1;
   height: 540px;
 
-}
-svg#about_fish polygon#tail{
-  fill:#FFF;
-  stroke:#FFF;
 }
