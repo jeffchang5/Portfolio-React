@@ -1,0 +1,59 @@
+header {
+  height: 100px;
+  width:100px;
+  z-index: 5;
+
+
+}
+#nav {
+
+  height: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+
+}
+
+#nav-container {
+  width: 500px;
+  margin: auto auto;
+}
+#nav-logo {
+  display: inline-block;
+  position: relative;
+
+  background-image: url("/assets/logo.png");
+  background-repeat: no-repeat;
+  background-size: 85px 65px;
+  left: 40px;
+  top:15px;
+  bottom:15px;
+  height: 65px;
+  width: 85px;
+
+}
+
+#nav-title {
+
+
+  display: inline-block;
+  min-width: 400px;
+  min-height: 70px;
+  margin-top: 10px;
+  position: relative;
+  left: 75px;
+
+
+  font-family: Ailerons-Typeface, sans-serif;
+  font-size: 30pt;
+  color: #D8D8D8;
+}
+@font-face {
+  font-family: "Ailerons-Typeface";
+  src: url('/assets/fonts/Ailerons-Typeface.woff') format('woff');
+  src: url('/assets/fonts/Ailerons-Typeface.ttf') format('truetype');
+
+}
+

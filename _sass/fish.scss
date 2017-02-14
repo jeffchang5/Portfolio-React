@@ -1,0 +1,46 @@
+#fishmap {
+  display: flex;
+  flex-grow:1;
+}
+.fish {
+  flex-grow:1;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  stroke-miterlimit:10;
+  height: 20px;
+  width: 30px;
+}
+
+svg#about_fish{
+
+  margin-top: 25px;
+
+
+}
+
+svg#passion_fish{
+
+  margin-top: 60px;
+
+
+}
+svg#project_fish {
+   margin-top: 30px;
+
+ }
+svg#contact_fish {
+  margin-top: 30px;
+
+}
+div#passions {
+  position: relative;
+  background-color: #5fabc4;
+  z-index: -1;
+  height: 540px;
+
+}
+svg#about_fish polygon#tail{
+  fill:#FFF;
+  stroke:#FFF;
+}
