@@ -16,20 +16,21 @@
 
 svg#passion_fish{
 
-  margin-top: 30px;
+  margin-top: 50px;
   transform: rotate(-13deg);
   stroke: #66CD00;
   fill: #66CD00;
 }
 svg#project_fish {
-  margin-top: 10px;
+  margin-top: 30px;
   transform: rotate(7deg);
   stroke: #CD5C5C;
   fill: #CD5C5C;
 
  }
+
 svg#contact_fish {
-  margin-top: 20px;
+  margin-top: 40px;
   transform: rotate(10deg);
   stroke: #66CCCC;
   fill: #66CCCC
@@ -37,17 +38,18 @@ svg#contact_fish {
 }
 
 svg#about_fish {
-  margin-top: 10px;
+  margin-top: 30px;
   fill:#FFF;
   stroke:#FFF;
   transform: rotate(13deg);
 }
 svg {
-  padding: 20px;
+
+  overflow: visible;
 }
-.fish :hover {
-  transform: scale(1.6);
-  filter: url(#blur-filter);
+svg :hover {
+  transform: scale(1.3);
+  transition: all .5s;
 }
 div#passions {
   position: relative;
